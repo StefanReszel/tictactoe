@@ -36,3 +36,7 @@ In two browser windows open [this](http://127.0.0.1:5000/).
 <p>For the application to work properly you should open second browser window with different session. I use Chrome and to do that I open latest as a Guest.</p>
 
 <p>Enjoy! :)</p>
+
+![1](https://user-images.githubusercontent.com/68772546/182130441-b62da8da-b541-42cd-b329-d99f51df6101.png)
+![2](https://user-images.githubusercontent.com/68772546/182130526-242e23cc-babe-4d64-952b-adab126452f4.png)
+![3](https://user-images.githubusercontent.com/68772546/182130551-1ce3d20d-2348-48f3-9d0e-79fc577459db.png)
