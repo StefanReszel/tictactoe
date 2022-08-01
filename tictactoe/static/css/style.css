@@ -1,0 +1,27 @@
+.board{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.square{
+    border: 1px solid black;
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.figure{
+    margin: auto;
+    font-size: 80px;
+}
+
+.d-inline-block{
+    display: inline-block;
+    vertical-align: top;
+}

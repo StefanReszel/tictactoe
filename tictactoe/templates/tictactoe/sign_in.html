@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Kółko i krzyżyk
+{% endblock title %}
+    
+
+{% block content %}
+{% include 'form_errors.html' %}
+<form method="POST" enctype="application/json" action="{{ url_for('tictactoe.sign-in') }}">
+    {% include 'render_form_fields.html' %}
+    <button type="submit">Dołącz do gry</button>
+</form>
+{% endblock content %}

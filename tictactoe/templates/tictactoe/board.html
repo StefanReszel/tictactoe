@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Kółko i krzyżyk
+{% endblock title %}
+    
+
+{% block content %}
+<div class="d-inline-block ">
+    Kredyty: <span class="credits"></span>
+    <a href="#" class="add_credits">Dodaj kredyty</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Przeciwnik</th>
+                <th>Wygrane</th>
+                <th>Przegrane</th>
+                <th>Remisy</th>
+                <th>Czas gry</th>
+            </tr>
+        </thead>
+        <tbody class="table_body">
+        </tbody>
+    </table>
+</div>
+<div class="d-inline-block board">
+    <div class="row">
+        <div id="0" class="square"></div><div id="1" class="square"></div><div id="2" class="square"></div>
+    </div>
+    <div class="row">
+        <div id="3" class="square"></div><div id="4" class="square"></div><div id="5" class="square"></div>
+    </div>
+    <div class="row">
+        <div id="6" class="square"></div><div id="7" class="square"></div><div id="8" class="square"></div>
+    </div>
+</div>
+{% endblock content %}
+
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/board.js') }}"></script>
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+<script src="{{ url_for('static', filename='js/credits.js') }}"></script>
+<script src="{{ url_for('static', filename='js/statistics.js') }}"></script>
+{% endblock %}

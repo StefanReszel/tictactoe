@@ -1,0 +1,11 @@
+{% for field in form %}
+    {% if field.id == "csrf_token" %}
+        {{ field }}
+    {% else %}
+    <p>
+        {{ field.label }}
+        <br>
+        {{ field }}
+    </p>
+    {% endif %}
+{% endfor %}
