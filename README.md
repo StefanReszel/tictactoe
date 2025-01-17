@@ -10,7 +10,7 @@ When player have 0 credits he is able to refill credits by 10.</p>
 
 ## Technologies
 <ul>
-<li>Python</li>
+<li>Python 3.12</li>
 <li>Java Script</li>
 <li>Flask</li>
 <li>SocketIO</li>
