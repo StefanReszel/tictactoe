@@ -10,7 +10,7 @@ When player have 0 credits he is able to refill credits by 10.</p>
 
 ## Technologies
 <ul>
-<li>Python</li>
+<li>Python 3.12</li>
 <li>Java Script</li>
 <li>Flask</li>
 <li>SocketIO</li>
@@ -19,7 +19,7 @@ When player have 0 credits he is able to refill credits by 10.</p>
 ## Usage
 Clone the repository and change direction to `tictactoe`:
 ```
-git clone https://github.com/StefanoDaReel/tictactoe.git
+git clone https://github.com/StefanReszel/tictactoe.git
 cd tictactoe
 ```
 <p>I recommend to create virtual environment now.</p>
